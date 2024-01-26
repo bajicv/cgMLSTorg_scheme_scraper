@@ -17,10 +17,10 @@
 #   Rscript --vanilla cgMLSTorg_scheme_scraper.R
 
 # To finding the date and time of the last change on scheme of interest
-#   Rscript --vanilla cgMLSTorg_scheme_scraper.R -f last_change -i Efaecium1424
+#   Rscript --vanilla cgMLSTorg_scheme_scraper.R -f last_change -i Abaumannii1469
 
 # To download specific scheme
-#   Rscript --vanilla cgMLSTorg_scheme_scraper.R -f download -i Efaecium1424
+#   Rscript --vanilla cgMLSTorg_scheme_scraper.R -f download -i Abaumannii1469
 #
 ################################################################################
 
