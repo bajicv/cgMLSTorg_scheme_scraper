@@ -35,6 +35,12 @@ if (length(missing_packages) > 0) {
 
 The script can be used directly from command line. 
 
+To see help message
+
+```bash
+Rscript --vanilla cgMLSTorg_scheme_scraper.R --help
+```
+
 To list all available schemes on cgMLST.org
 
 ```bash
@@ -44,10 +50,11 @@ Rscript --vanilla cgMLSTorg_scheme_scraper.R
 To finding the date and time of the last change on scheme of interest
 
 ```bash 
-Rscript --vanilla cgMLSTorg_scheme_scraper.R -f last_change -i Efaecium1424
+Rscript --vanilla cgMLSTorg_scheme_scraper.R -f last_change -i Abaumannii
 ```
 
 To download specific scheme
+
 ```bash
-Rscript --vanilla cgMLSTorg_scheme_scraper.R -f download -i Efaecium1424
+Rscript --vanilla cgMLSTorg_scheme_scraper.R -f download -i Abaumannii
 ```
